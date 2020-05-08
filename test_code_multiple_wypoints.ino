@@ -3,14 +3,15 @@
 #include <Wire.h>
 #include <HMC5883L_Simple.h>
 #include <TinyGPS.h>
-//#include <Servo.h>
 
-//////////////////////////////////////////////////// RF
 
-/*-----( Import needed libraries )-----*/
+// RF Module //
+
+/*-----( Import needed libraries as headers )-----*/
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
+
 /*-----( Declare Constants and Pin Numbers )-----*/
 #define CE_PIN   9
 #define CSN_PIN 53
@@ -26,8 +27,8 @@ int   radio_count[1] = {0};
 
 
 int dummy[2] = {10,20};
-///////////////////////////////////////////////////// RF
 
+//RF
 #define propellerKp 0.4
 #define propellerKi 0
 #define propellerKd 0
