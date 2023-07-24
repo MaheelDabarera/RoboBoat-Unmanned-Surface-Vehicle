@@ -63,6 +63,3 @@ You can find more research by the project creator on their [Google Scholar profi
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-P
